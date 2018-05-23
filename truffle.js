@@ -18,6 +18,13 @@ module.exports = {
           port: 8545,
           network_id: 4, //rinkeby test network
           gas: 4700000
-      }
+      },
+      live: {
+        host:"localhost",
+        port: 8545,
+        network_id: 1, //Main network
+        gas: 4700000,
+        gasPrice: 15000000000
+    }
      }
 };
